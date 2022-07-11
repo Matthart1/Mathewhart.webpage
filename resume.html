@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- Start of Async Drift Code -->
+    <script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('cer5z63bmcku');
+    </script>
+    <!-- End of Async Drift Code -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class="sub-headertwo">
+        <nav>
+            <a href="index.html"><img src="Images/ME.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="resume.html">RESUME</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Resume</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, reiciendis. Suscipit accusamus libero praesentium accusantium distinctio. A, autem sint veniam, perspiciatis dolorem quibusdam aperiam corrupti nesciunt sunt nemo ad eius!</p>
+    </section>
+    <section class="about">
+        <h1>My Professional Caeer</h1>
+        <p>Life and Times</p>
+
+        <div class="row">
+            <div class="about-col">
+                <h3>Schooling</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui porro, autem ea fugiat veniam fuga iusto atque laborum sequi nam est harum corrupti quae ex vero in! Expedita, iusto qui?</p>
+
+            </div>
+            <div class="about-col">
+                <h3>Projects/Career</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui porro, autem ea fugiat veniam fuga iusto atque laborum sequi nam est harum corrupti quae ex vero in! Expedita, iusto qui?</p>
+                
+            </div>
+            <div class="about-col">
+                <h3>Other Asspects</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui porro, autem ea fugiat veniam fuga iusto atque laborum sequi nam est harum corrupti quae ex vero in! Expedita, iusto qui?</p>
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, impedit minus. Animi odit illo porro aliquid explicabo cum repudiandae facere vero sit nulla optio magni hic,<br> cumque temporibus expedita accusamus!</p>
+        <div class="icons">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+<!-------menu-icons-->
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200";
+    }
+</script>
+</body>
+</html>
