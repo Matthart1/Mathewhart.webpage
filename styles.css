@@ -219,14 +219,15 @@ h3{
     background-size: cover;
     text-align: center;
 }
-.sub-header{
-    margin-top: 0%;
-}
+
 .sub-header h1{
     color: #fff;
 }
 .sub-header p{
     color: #fff;
+}
+.sub-header{
+    margin-top: 0%;
 }
 
 .sub-headertwo{
